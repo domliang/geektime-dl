@@ -1,0 +1,30 @@
+{
+  "name": "geektime-dl",
+  "version": "1.0.0",
+  "description": "geek time downloader",
+  "main": "index.js",
+  "bin": {
+    "geektime-dl": "./bin/geektime-dl"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domliang/geektime-dl.git"
+  },
+  "keywords": [
+    "geektime"
+  ],
+  "author": "DomLiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domliang/geektime-dl/issues"
+  },
+  "homepage": "https://github.com/domliang/geektime-dl#readme",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "node-fetch": "^2.3.0",
+    "ora": "^3.0.0"
+  }
+}

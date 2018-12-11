@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const ora = require('ora');
+
+const spinner = ora('start fetch Course Media').start();
+require('../index')((i, len, o)=>{
+  spinner.text = `downloading the ${i+1}/${len} [${o.articleTitle}]`;
+});
